@@ -9,7 +9,8 @@ public class remove_duplicate_char {
         char[] ch = str.trim().toLowerCase().toCharArray();
 
         for(char c: ch){
-            if(result.indexOf(c)==-1){
+
+            if(result.indexOf(c)==-1){ //login - this will check if the index of each char from str is present in result, if not we can add that char to result
                 result+=c;
 
             }

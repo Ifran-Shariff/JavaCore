@@ -4,8 +4,7 @@ public class first_nonrepeating_char {
     //finding first non repeating char from string
     public static void main(String[] args) {
         String str = "hello worldh";
-
-        char firstnonrepeating='A';
+        char firstnonrepeating='a';
         char[] ch = str.trim().replace(" ","").toLowerCase().toCharArray();
         for(int i=0;i<ch.length;i++){
             char unique = ch[i];
